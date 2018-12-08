@@ -1,13 +1,20 @@
-# weather
+# weatherSpider
 #### 1、安装依赖
 使用anaconda/python3.X对应的包管理器conda/pip（建议虚拟环境下）安装requirements.txt文件里的依赖
 #### 2、跑数据 
 ```scrapy runspider weather_spider.py -s FEED_FORMAT="jsonlines" -s FEED_EXPORT_ENCODING="utf-8" -s FEED_URI="file:///tmp/%(site)s"```
 #### 3、查看数据
 - 数据路径 
-   - unix-like /tmp/www.weather.com.cn
+   - unix-like： /tmp/www.weather.com.cn
    - windows: D:\tmp\www.weather.com.cn (D盘还是C盘等其它盘，取决你项目所在盘)
    - mac：没有机子来测
+- 统计&信息
+   - 统计：包含市、区/县，共计3280个城市单元的天气数据
+   - 信息：
+      - 当天天气详情
+      - 6天天气预测
+      - 当天天气走势图数据
+      - 生活指数
 - 展示&说明
 ```
 [
@@ -281,7 +288,7 @@
         }
     ]
 },
-...
+...# 省略了其它城市信息
 ]
 ```
 
