@@ -1,4 +1,7 @@
-# weatherSpider
+# WeatherSpider
+#### 0、项目概要
+- 按市、区/县地域维度，抓取中国天气网数据
+- 示例  ：http://www.weather.com.cn/weather/101071207.shtml
 #### 1、安装依赖
 使用anaconda/python3.X对应的包管理器conda/pip（建议虚拟环境下）安装requirements.txt文件里的依赖
 #### 2、跑数据 
