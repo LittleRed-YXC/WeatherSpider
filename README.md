@@ -306,3 +306,4 @@
 5. #### TODO
     - docker deployment
     - restful api
+    - 再寻找1-2个网站，添加其它天气抓取源，增加容错性
